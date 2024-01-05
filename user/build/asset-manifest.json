@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.961815e1.css",
+    "main.js": "/static/js/main.5b0452d7.js",
+    "static/media/img-2.jpg": "/static/media/img-2.b47fe8d419f177ee2d9f.jpg",
+    "static/media/welcome_screen.jpg": "/static/media/welcome_screen.e6c42cbf12135b2fd0f2.jpg",
+    "static/media/Hotel Lobby Modern (1).png": "/static/media/Hotel Lobby Modern (1).d1f49b5d049a0e1f393e.png",
+    "static/media/DPInterior.png": "/static/media/DPInterior.448b0d8943b28e9332e6.png",
+    "static/media/AllertaStencil-Regular.ttf": "/static/media/AllertaStencil-Regular.8cc527f1047bc770e4a5.ttf",
+    "static/media/Support service with headphones. Customer Support service logo template.png": "/static/media/Support service with headphones. Customer Support service logo template.7893d3d254e8d33f2eca.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.961815e1.css.map": "/static/css/main.961815e1.css.map",
+    "main.5b0452d7.js.map": "/static/js/main.5b0452d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.961815e1.css",
+    "static/js/main.5b0452d7.js"
+  ]
+}
