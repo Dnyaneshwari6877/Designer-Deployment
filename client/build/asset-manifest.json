@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec4c1395.css",
+    "main.js": "/static/js/main.34639244.js",
+    "static/media/spacejoy-9M66C_w_ToM-unsplash.jpg": "/static/media/spacejoy-9M66C_w_ToM-unsplash.db002c6f4d7eb50d78b9.jpg",
+    "static/media/interior-2685521_640.jpg": "/static/media/interior-2685521_640.d2538a786097b6f75596.jpg",
+    "index.html": "/index.html",
+    "main.ec4c1395.css.map": "/static/css/main.ec4c1395.css.map",
+    "main.34639244.js.map": "/static/js/main.34639244.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec4c1395.css",
+    "static/js/main.34639244.js"
+  ]
+}
