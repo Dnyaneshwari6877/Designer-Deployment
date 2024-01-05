@@ -25,19 +25,19 @@ const designerRouter = require("./routes/DesignerAuth");
 const sampleRouter = require("./routes/Sample");
 const BeforeAfter = require("./routes/BeforeAfter");
 
-// //static file
-app.use(express.static(path.join(__dirname, "../Dashboard/dashboard/build")));
-
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../Dashboard/dashboard/build/index.html"));
-});
-
 const notFoundMiddleware = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 
 app.use("/", authRouter);
 app.use("/designer/", designerRouter);
 app.use("/work/", sampleRouter, BeforeAfter);
+
+// //static file
+app.use(express.static(path.join(__dirname, "../Dashboard/dashboard/build")));
+
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "../Dashboard/dashboard/build/index.html"));
+});
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
