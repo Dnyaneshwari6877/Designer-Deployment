@@ -34,11 +34,6 @@ app.use("/work/", sampleRouter, BeforeAfter);
 
 // //static file
 app.use(express.static(path.join(__dirname, "./client/build")));
-app.use(express.static(path.join(__dirname, "./user/build")));
-
-app.get("/client", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./user/build/index.html"));
